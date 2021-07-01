@@ -15,5 +15,5 @@ mongoose
     server.start(process.env.PORT || 3000);
   })
   .catch((e) => {
-    console.error('cant connect'.e.massage);
+    console.error('cant connect', e.massage);
   });
